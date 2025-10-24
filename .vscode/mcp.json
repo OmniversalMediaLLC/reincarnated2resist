@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "azure": {
+      "type": "http",
+      "url": "https://api.azurecopilot.microsoft.com/mcp/"
+    },
+    "github": {
+      "type": "http", 
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "neon": {
+      "type": "http",
+      "url": "https://console.neon.tech/api/mcp/"
+    },
+    "cloudflare": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cloudflare/workers-mcp@latest",
+        "--project",
+        "broad-hat-6f5b"
+      ]
+    }
+  }
+}

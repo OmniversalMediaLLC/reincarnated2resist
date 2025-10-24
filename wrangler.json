@@ -1,0 +1,28 @@
+{
+  "name": "hawkeye-site-worker",
+  "main": "dist/index.js",
+  "compatibility_date": "2025-10-24",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "command": "npm run build",
+    "watch_dir": "src"
+  },
+  "vars": {
+    "ENVIRONMENT": "production"
+  },
+  "durable_objects": {
+    "bindings": []
+  },
+  "triggers": {
+    "crons": []
+  },
+  "d1_databases": [],
+  "routes": [
+    {
+      "pattern": "hawkeye.omniversalmedia.net/*",
+      "zone_id": "your-zone-id-here"
+    }
+  ]
+}
