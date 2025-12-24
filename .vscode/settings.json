@@ -1,6 +1,6 @@
 {
   "chat.mcp.gallery.enabled": true,
-  "workbench.productIconTheme": "undoDebugger",
+  "workbench.productIconTheme": "Default",
   "udb.miDebuggerPathOverride": "/home/dianaswan/.config/Code/User/globalStorage/undo.udb/UDB-Individual-Evaluation/udb",
   "udb.showGettingStartedOnActivation": false,
   "editor.formatOnSave": true,
@@ -10,8 +10,6 @@
     "Global in Code: neondatabase/mcp-server-neon": {
       "allowedModels": [
         "copilot/auto",
-        "copilot/claude-3.5-sonnet",
-        "copilot/gemini-2.0-flash-001",
         "copilot/gpt-4.1",
         "copilot/gpt-4o",
         "copilot/gpt-5-mini",
@@ -55,5 +53,9 @@
   "inlineChat.notebookAgent": true,
   "chat.tools.terminal.terminalProfile.windows": {
   
+  },
+  "chat.allowAnonymousAccess": true,
+  "chat.promptFilesRecommendations": {
+
   }
 }

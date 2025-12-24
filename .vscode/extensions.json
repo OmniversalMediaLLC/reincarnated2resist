@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "cloudflare.cloudflare-workers-bindings-extension"
+        "cloudflare.cloudflare-workers-bindings-extension",
+        "lvdn.s3x-explorer"
     ]
 }
